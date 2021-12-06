@@ -5,6 +5,7 @@ import soot.jimple.toolkits.callgraph.*;
 
 class Scratch {
     public static void main(String[] args) {
+        final long startTime = System.nanoTime();
         Options.v().parse(args);
         Scene.v().loadNecessaryClasses();
 
@@ -14,10 +15,17 @@ class Scratch {
 
         CHATransformer.v().transform("wjtp", cgMap);
 
+        final long duration = System.nanoTime() - startTime;
         CallGraph cg = Scene.v().getCallGraph();
-        // System.out.println(cg.size());
-        System.out.println(cg.toString());
 
+        System.out.print("Size: ");
+        System.out.println(cg.size());
+        System.out.println("\nDuration: ");
+        System.out.print(duration);
+        System.out.println(" nano seconds");
+        System.out.print(duration/1000000000);
+        System.out.println(" seconds");
+        // System.out.println(cg.toString());
     }
 }
 
