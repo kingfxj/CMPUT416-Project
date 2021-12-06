@@ -21,4 +21,4 @@ class Scratch {
     }
 }
 
-// java -cp sootclasses-trunk-jar-with-dependencies.jar scratch.java -cp . -pp -process-dir imagej1/ij.jar -allow-phantom-refs -w ij.ImageJ > toString.txt
+// java -cp ../sootclasses-trunk-jar-with-dependencies.jar soot.java -cp ../ -pp -process-dir ../imagej1/ij.jar -allow-phantom-refs -w ij.ImageJ > toString.txt
