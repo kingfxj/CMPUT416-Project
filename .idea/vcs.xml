@@ -4,5 +4,6 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/WALA" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/imagej1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wala/WALA" vcs="Git" />
   </component>
 </project>

@@ -25,8 +25,8 @@ class Scratch {
         System.out.println(" nano seconds");
         System.out.print(duration/1000000000);
         System.out.println(" seconds");
-        // System.out.println(cg.toString());
+        System.out.println(cg.toString());
     }
 }
 
-// java -cp ../sootclasses-trunk-jar-with-dependencies.jar soot.java -cp ../ -pp -process-dir ../imagej1/ij.jar -allow-phantom-refs -w ij.ImageJ > toString.txt
+// java -cp sootclasses-trunk-jar-with-dependencies.jar soot.java -cp ../ -pp -process-dir ../imagej1/ij.jar -allow-phantom-refs -w ij.ImageJ > toString.txt
