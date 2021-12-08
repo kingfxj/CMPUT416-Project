@@ -8,7 +8,7 @@
 We wanted to analyze the ImageJ program using soot analysis to identify the location of the bugs as well as learning how the ImageJ program are able to run on crossplatforms.
 This github repository contains the ImageJ software and as well as the source code of ImageJ. In addition, there is a soot jar file inside soot folder that enable to run soot analysis.
 
-For manual testing, two files large.jpeg and dog.jpeg are examples of what we importated into the imageJ software.
+For manual testing, two files large.jpeg and dog.jpg are examples of what we importated into the imageJ software.
 
 Inside the folder soot, toString.txt is the result of the edges of running soot.java file.
 To regenerate the result, you can clone this github repository
